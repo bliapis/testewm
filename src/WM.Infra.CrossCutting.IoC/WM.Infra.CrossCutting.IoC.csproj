@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WM.Domain.Anuncio\WM.Domain.Anuncio.csproj" />
+    <ProjectReference Include="..\WM.Domain.Core\WM.Domain.Core.csproj" />
+    <ProjectReference Include="..\WM.Infra.CrossCutting.Bus\WM.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\WM.Infra.Data.Anuncio\WM.Infra.Data.Anuncio.csproj" />
+  </ItemGroup>
+
+</Project>

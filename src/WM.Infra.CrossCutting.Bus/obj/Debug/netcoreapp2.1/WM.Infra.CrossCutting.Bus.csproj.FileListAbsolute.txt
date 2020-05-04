@@ -1,0 +1,12 @@
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.deps.json
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.dll
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.pdb
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.1\WM.Domain.Core.dll
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\bin\Debug\netcoreapp2.1\WM.Domain.Core.pdb
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.csprojAssemblyReference.cache
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.AssemblyInfo.cs
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.csproj.CopyComplete
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.dll
+D:\Projects\webmotors\wm\src\WM.Infra.CrossCutting.Bus\obj\Debug\netcoreapp2.1\WM.Infra.CrossCutting.Bus.pdb

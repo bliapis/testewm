@@ -1,0 +1,9 @@
+D:\Projects\webmotors\wm\src\WM.Domain.Core\bin\Debug\netcoreapp2.1\WM.Domain.Core.deps.json
+D:\Projects\webmotors\wm\src\WM.Domain.Core\bin\Debug\netcoreapp2.1\WM.Domain.Core.dll
+D:\Projects\webmotors\wm\src\WM.Domain.Core\bin\Debug\netcoreapp2.1\WM.Domain.Core.pdb
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.csprojAssemblyReference.cache
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.csproj.CoreCompileInputs.cache
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.AssemblyInfoInputs.cache
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.AssemblyInfo.cs
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.dll
+D:\Projects\webmotors\wm\src\WM.Domain.Core\obj\Debug\netcoreapp2.1\WM.Domain.Core.pdb

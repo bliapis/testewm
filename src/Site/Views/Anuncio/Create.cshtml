@@ -1,0 +1,116 @@
+﻿@model WM.Site.Models.AnuncioViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>AnuncioViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <select asp-for="MarcaId" class="form-control">
+                    <option value="">Escolha uma marca</option>
+                </select>
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <select asp-for="ModeloId" class="form-control">
+                    <option value=""></option>
+                </select>
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Versao" class="control-label"></label>
+                <select asp-for="VersaoId" class="form-control">
+                    <option value=""></option>
+                </select>
+                <span asp-validation-for="Versao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ano" class="control-label"></label>
+                <input asp-for="Ano" class="form-control" />
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quilometragem" class="control-label"></label>
+                <input asp-for="Quilometragem" class="form-control" />
+                <span asp-validation-for="Quilometragem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <input asp-for="Observacao" class="form-control" />
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+
+            <input type="hidden" name="Marca" id="Marca" value="" />
+            <input type="hidden" name="Modelo" id="Modelo" value="" />
+            <input type="hidden" name="Versao" id="Versao" value="" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(
+            function () {
+                $.getJSON(`GetMarcas`, (data) => {
+                    var result = JSON.parse(data.data);
+                    $.each(result, function (i, item) {
+                        $("#MarcaId").append(`<option value="${item.ID}">${item.Name}</option>`);
+                    });
+                });
+            }
+        );
+
+        $("#MarcaId").on("change", function () {
+            var marcaId = $(this).val();
+            $("#Marca").val($("#MarcaId option:selected").text());
+
+            $("#ModeloId").empty();
+            $("#ModeloId").append("<option value=''>Selecione um Modelo</option>");
+
+            $.getJSON(`GetModelo?marcaId=${marcaId}`, (data) => {
+                var result = JSON.parse(data.data);
+                $.each(result, function (i, item) {
+                    $("#ModeloId").append(`<option value="${item.ID}">${item.Name}</option>`);
+                });
+            });
+        });
+
+        $("#ModeloId").on("change", function () {
+            var modeloId = $(this).val();
+            $("#Modelo").val($("#ModeloId option:selected").text());
+
+            $("#VersaoId").empty();
+            $("#VersaoId").append("<option value=''>Selecione uma versão</option>");
+
+            $.getJSON(`GetVersao?modeloId=${modeloId}`, (data) => {
+                var result = JSON.parse(data.data);
+                $.each(result, function (i, item) {
+                    $("#VersaoId").append(`<option value="${item.ID}">${item.Name}</option>`);
+                });
+            });
+        });
+
+        $("#VersaoId").on("change", function () {
+            var versao = $(this).val();
+            $("#Versao").val($("#VersaoId option:selected").text());
+        });
+    </script>
+}
