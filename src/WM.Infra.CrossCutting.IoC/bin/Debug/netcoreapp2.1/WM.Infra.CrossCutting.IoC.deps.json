@@ -12,10 +12,10 @@
           "Microsoft.AspNetCore.Http": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
-          "WM.Domain.Anuncio": "1.0.0",
+          "WM.Domain.Cliente": "1.0.0",
           "WM.Domain.Core": "1.0.0",
           "WM.Infra.CrossCutting.Bus": "1.0.0",
-          "WM.Infra.Data.Anuncio": "1.0.0"
+          "WM.Infra.Data.Cliente": "1.0.0"
         },
         "runtime": {
           "WM.Infra.CrossCutting.IoC.dll": {}
@@ -1082,12 +1082,12 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "WM.Domain.Anuncio/1.0.0": {
+      "WM.Domain.Cliente/1.0.0": {
         "dependencies": {
           "WM.Domain.Core": "1.0.0"
         },
         "runtime": {
-          "WM.Domain.Anuncio.dll": {}
+          "WM.Domain.Cliente.dll": {}
         }
       },
       "WM.Domain.Core/1.0.0": {
@@ -1106,7 +1106,7 @@
           "WM.Infra.CrossCutting.Bus.dll": {}
         }
       },
-      "WM.Infra.Data.Anuncio/1.0.0": {
+      "WM.Infra.Data.Cliente/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.2",
           "Microsoft.EntityFrameworkCore.Design": "2.1.2",
@@ -1116,11 +1116,11 @@
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "WM.Domain.Anuncio": "1.0.0",
+          "WM.Domain.Cliente": "1.0.0",
           "Dapper": "1.50.2"
         },
         "runtime": {
-          "WM.Infra.Data.Anuncio.dll": {}
+          "WM.Infra.Data.Cliente.dll": {}
         }
       }
     }
@@ -1852,7 +1852,7 @@
       "path": "system.xml.xmldocument/4.0.1",
       "hashPath": "system.xml.xmldocument.4.0.1.nupkg.sha512"
     },
-    "WM.Domain.Anuncio/1.0.0": {
+    "WM.Domain.Cliente/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1867,7 +1867,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "WM.Infra.Data.Anuncio/1.0.0": {
+    "WM.Infra.Data.Cliente/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

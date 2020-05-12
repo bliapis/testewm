@@ -1,0 +1,440 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\tetesc\\sc\\src\\WM.API\\WM.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\tetesc\\sc\\src\\WM.API\\WM.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.API\\WM.API.csproj",
+        "projectName": "WM.API",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.API\\WM.API.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+              },
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj"
+              },
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj",
+        "projectName": "WM.Domain.Cliente",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj",
+        "projectName": "WM.Domain.Core",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
+        "projectName": "WM.Infra.CrossCutting.Bus",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
+        "projectName": "WM.Infra.CrossCutting.IoC",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj"
+              },
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+              },
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj"
+              },
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj",
+        "projectName": "WM.Infra.Data.Cliente",
+        "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj": {
+                "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[1.50.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

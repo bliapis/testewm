@@ -12,10 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WM.Domain.Anuncio\WM.Domain.Anuncio.csproj" />
+    <ProjectReference Include="..\WM.Domain.Cliente\WM.Domain.Cliente.csproj" />
     <ProjectReference Include="..\WM.Domain.Core\WM.Domain.Core.csproj" />
     <ProjectReference Include="..\WM.Infra.CrossCutting.Bus\WM.Infra.CrossCutting.Bus.csproj" />
-    <ProjectReference Include="..\WM.Infra.Data.Anuncio\WM.Infra.Data.Anuncio.csproj" />
+    <ProjectReference Include="..\WM.Infra.Data.Cliente\WM.Infra.Data.Cliente.csproj" />
   </ItemGroup>
 
 </Project>

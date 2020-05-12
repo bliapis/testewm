@@ -1,16 +1,16 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
-using WM.Domain.Anuncio.Anuncio.Interfaces;
-using WM.Domain.Anuncio.Anuncio.Services;
 using WM.Domain.Core.Bus;
 using WM.Domain.Core.Interfaces;
 using WM.Domain.Core.Notifications;
 using WM.Infra.CrossCutting.Bus;
-using WM.Infra.Data.Anuncio.Context;
-using WM.Infra.Data.Anuncio.Repository;
-using WM.Infra.Data.Anuncio.UoW;
-using Microsoft.AspNetCore.Http;
+using WM.Domain.Cliente.Clientes.Interfaces;
+using WM.Domain.Cliente.Clientes.Services;
+using WM.Infra.Data.Cliente.Context;
+using WM.Infra.Data.Cliente.Repository;
+using WM.Infra.Data.Cliente.UoW;
 
 namespace WM.Infra.CrossCutting.IoC
 {
@@ -28,7 +28,7 @@ namespace WM.Infra.CrossCutting.IoC
 
             #region Domain Anuncio
 
-            services.AddScoped<IAnuncioService, AnuncioService>();
+            services.AddScoped<IClienteService, ClienteService>();
 
             #endregion
 
@@ -37,8 +37,8 @@ namespace WM.Infra.CrossCutting.IoC
             #region Infra
 
             //Gerencial Data
-            services.AddScoped<AnuncioContext>();
-            services.AddScoped<IAnuncioRepository, AnuncioRepository>();
+            services.AddScoped<ClienteContext>();
+            services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             #endregion

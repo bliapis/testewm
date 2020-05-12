@@ -1,0 +1,12 @@
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\bin\Debug\netcoreapp2.1\WM.Domain.Cliente.deps.json
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\bin\Debug\netcoreapp2.1\WM.Domain.Cliente.dll
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\bin\Debug\netcoreapp2.1\WM.Domain.Cliente.pdb
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\bin\Debug\netcoreapp2.1\WM.Domain.Core.dll
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\bin\Debug\netcoreapp2.1\WM.Domain.Core.pdb
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.csprojAssemblyReference.cache
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.csproj.CoreCompileInputs.cache
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.AssemblyInfoInputs.cache
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.AssemblyInfo.cs
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.csproj.CopyComplete
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.dll
+D:\Projects\tetesc\sc\src\WM.Domain.Cliente\obj\Debug\netcoreapp2.1\WM.Domain.Cliente.pdb

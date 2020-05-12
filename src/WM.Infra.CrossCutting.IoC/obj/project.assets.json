@@ -1686,17 +1686,17 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "WM.Domain.Anuncio/1.0.0": {
+      "WM.Domain.Cliente/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "WM.Domain.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/WM.Domain.Anuncio.dll": {}
+          "bin/placeholder/WM.Domain.Cliente.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WM.Domain.Anuncio.dll": {}
+          "bin/placeholder/WM.Domain.Cliente.dll": {}
         }
       },
       "WM.Domain.Core/1.0.0": {
@@ -1725,7 +1725,7 @@
           "bin/placeholder/WM.Infra.CrossCutting.Bus.dll": {}
         }
       },
-      "WM.Infra.Data.Anuncio/1.0.0": {
+      "WM.Infra.Data.Cliente/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -1737,14 +1737,14 @@
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "WM.Domain.Anuncio": "1.0.0",
+          "WM.Domain.Cliente": "1.0.0",
           "dapper": "1.50.2"
         },
         "compile": {
-          "bin/placeholder/WM.Infra.Data.Anuncio.dll": {}
+          "bin/placeholder/WM.Infra.Data.Cliente.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WM.Infra.Data.Anuncio.dll": {}
+          "bin/placeholder/WM.Infra.Data.Cliente.dll": {}
         }
       }
     }
@@ -6049,10 +6049,10 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "WM.Domain.Anuncio/1.0.0": {
+    "WM.Domain.Cliente/1.0.0": {
       "type": "project",
-      "path": "../WM.Domain.Anuncio/WM.Domain.Anuncio.csproj",
-      "msbuildProject": "../WM.Domain.Anuncio/WM.Domain.Anuncio.csproj"
+      "path": "../WM.Domain.Cliente/WM.Domain.Cliente.csproj",
+      "msbuildProject": "../WM.Domain.Cliente/WM.Domain.Cliente.csproj"
     },
     "WM.Domain.Core/1.0.0": {
       "type": "project",
@@ -6064,10 +6064,10 @@
       "path": "../WM.Infra.CrossCutting.Bus/WM.Infra.CrossCutting.Bus.csproj",
       "msbuildProject": "../WM.Infra.CrossCutting.Bus/WM.Infra.CrossCutting.Bus.csproj"
     },
-    "WM.Infra.Data.Anuncio/1.0.0": {
+    "WM.Infra.Data.Cliente/1.0.0": {
       "type": "project",
-      "path": "../WM.Infra.Data.Anuncio/WM.Infra.Data.Anuncio.csproj",
-      "msbuildProject": "../WM.Infra.Data.Anuncio/WM.Infra.Data.Anuncio.csproj"
+      "path": "../WM.Infra.Data.Cliente/WM.Infra.Data.Cliente.csproj",
+      "msbuildProject": "../WM.Infra.Data.Cliente/WM.Infra.Data.Cliente.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6077,10 +6077,10 @@
       "Microsoft.Extensions.Configuration >= 2.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "WM.Domain.Anuncio >= 1.0.0",
+      "WM.Domain.Cliente >= 1.0.0",
       "WM.Domain.Core >= 1.0.0",
       "WM.Infra.CrossCutting.Bus >= 1.0.0",
-      "WM.Infra.Data.Anuncio >= 1.0.0"
+      "WM.Infra.Data.Cliente >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6090,11 +6090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
+      "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
       "projectName": "WM.Infra.CrossCutting.IoC",
-      "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
+      "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\WM.Infra.CrossCutting.IoC.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.IoC\\obj\\",
+      "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6113,17 +6113,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Anuncio\\WM.Domain.Anuncio.csproj": {
-              "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Anuncio\\WM.Domain.Anuncio.csproj"
+            "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj": {
+              "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Cliente\\WM.Domain.Cliente.csproj"
             },
-            "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
-              "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+            "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+              "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
             },
-            "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj": {
-              "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj"
+            "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj": {
+              "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj"
             },
-            "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.Data.Anuncio\\WM.Infra.Data.Anuncio.csproj": {
-              "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.Data.Anuncio\\WM.Infra.Data.Anuncio.csproj"
+            "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj": {
+              "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.Data.Cliente\\WM.Infra.Data.Cliente.csproj"
             }
           }
         }

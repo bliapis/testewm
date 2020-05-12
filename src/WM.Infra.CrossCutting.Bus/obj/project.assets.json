@@ -2139,11 +2139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
+      "projectUniqueName": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
       "projectName": "WM.Infra.CrossCutting.Bus",
-      "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
+      "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\WM.Infra.CrossCutting.Bus.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Infra.CrossCutting.Bus\\obj\\",
+      "outputPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Infra.CrossCutting.Bus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2162,8 +2162,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
-              "projectPath": "D:\\Projects\\webmotors\\wm\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
+            "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj": {
+              "projectPath": "D:\\Projects\\tetesc\\sc\\src\\WM.Domain.Core\\WM.Domain.Core.csproj"
             }
           }
         }

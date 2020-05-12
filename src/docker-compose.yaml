@@ -1,0 +1,17 @@
+version: "3"
+services:
+    webapp:
+        build: .
+        ports:
+            - "51336:51336"
+        depends_on:
+            - local
+    local:
+        image: microsoft/mssql-server-windows-developer
+        expose:
+            - "1433"
+        environment:
+            - SA_PASSWORD=Pass@word
+            - ACCEPT_EULA=Y
+        ports:
+            - "1433:1433"
